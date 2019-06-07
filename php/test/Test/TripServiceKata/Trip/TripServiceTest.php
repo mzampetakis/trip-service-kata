@@ -2,7 +2,6 @@
 
 namespace Test\TripServiceKata\Trip;
 
-
 use \Mockery;
 use PHPUnit\Framework\TestCase;
 use TripServiceKata\Exception\UserNotLoggedInException;
