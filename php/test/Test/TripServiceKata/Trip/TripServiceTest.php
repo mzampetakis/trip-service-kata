@@ -76,6 +76,7 @@ class TripServiceTest extends TestCase
         $MockTripService = Mockery::mock(TripService::class)->makePartial();
         $MockTripService->shouldReceive("getTripLoggedUser")
             ->andReturn($loggedUser);
+        
         $MockTripService->shouldReceive("findUserTrips")
                 ->andReturn(array(new Trip()));
 
